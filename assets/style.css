@@ -1,0 +1,28 @@
+.container
+{
+    background-color:rgba(128, 128, 128, 0.541);
+    height: 478px;
+    width: 240px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex; 
+    overflow: hidden;   
+}
+
+img
+{
+    z-index: 5;
+}
+
+.video
+{
+    position: relative;
+    right: 245px;  
+    z-index: 1;
+}
+
+.video_incrusted
+{
+    height: 478px;
+    width: 240px;
+}
